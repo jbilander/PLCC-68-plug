@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name PLCC-68-Plug)(type KiCad)(uri ${KIPRJMOD}/PLCC-68-Plug.pretty)(options "")(descr ""))
+)
