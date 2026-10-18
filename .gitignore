@@ -1,26 +1,21 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+Thumbs.db
+.DS_Store
+
+# For PCBs designed using KiCad: http://www.kicad-pcb.org/
+# Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*-cache*
-*-bak
-*-bak*
+*.sch-bak
 *~
-~*
 _autosave-*
-\#auto_saved_files\#
 *.tmp
 *-save.pro
 *-save.kicad_pcb
 fp-info-cache
-~*.lck
-\#auto_saved_files#
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -33,11 +28,11 @@ fp-info-cache
 *.xml
 *.csv
 
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
+### KiCad Patch ###
+rescue-backup/
 
-# Local git-based history (KiCad 9.0+)
-.history
+*.tsv
+bom/
 
-# Local project settings
-*.kicad_prl
+# Gerber export output
+out/
